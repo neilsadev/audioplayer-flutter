@@ -16,6 +16,17 @@
 	<string>audioplayer</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>UIBackgroundModes</key>
+    	<array>
+    		<string>audio</string>
+    	</array>
+	<key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>... explain why the app uses the microphone here ...</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
